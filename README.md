@@ -2,6 +2,16 @@
 
 [![Build Status](https://secure.travis-ci.org/fnichol/chef-rbenv.png?branch=master)](http://travis-ci.org/fnichol/chef-rbenv)
 
+## Rabid's fork
+
+This fork applies two patches required for this cookbook to work with Chef 12.3.0:
+
+1. https://github.com/fnichol/chef-rbenv/issues/110
+2. https://github.com/fnichol/chef-rbenv/pull/108
+
+These changes are only on the `apply-patches` branch at this time.
+
+
 ## <a name="description"></a> Description
 
 Manages [rbenv][rbenv_site] and its installed Rubies.
